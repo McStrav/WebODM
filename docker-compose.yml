@@ -8,7 +8,7 @@ volumes:
     driver: local
 services:
   db:
-    image: mcstrav/webodm_db
+    image: opendronemap/webodm_db
     container_name: db
     ports:
       - "5432"
