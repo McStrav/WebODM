@@ -1,0 +1,154 @@
+html, body, #wrapper, #page-wrapper, section.main, .content {
+  height: 100%; }
+
+#navbar-top {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 50px;
+  min-height: 50px;
+  background-color: #80c408;
+  z-index: 99999; }
+  #navbar-top .navbar-header {
+    width: 100%; }
+  #navbar-top .navbar-brand {
+    height: auto;
+    padding: 8px; }
+  #navbar-top .navbar-text {
+    margin-top: 14px;
+    margin-left: 4px; }
+  #navbar-top .navbar-link:hover {
+    color: white;
+    text-decoration: none; }
+  #navbar-top .navbar-top-links {
+    clear: both; }
+    #navbar-top .navbar-top-links a.dropdown-toggle {
+      color: white; }
+    #navbar-top .navbar-top-links a:hover, #navbar-top .navbar-top-links a:focus, #navbar-top .navbar-top-links .open > a {
+      background-color: #c2c2c0; }
+  #navbar-top ul#side-menu a:hover, #navbar-top ul#side-menu a:focus {
+    color: white;
+    text-decoration: none;
+    background-color: #a5a5a5; }
+  #navbar-top ul#side-menu li {
+    word-break: break-word; }
+  #navbar-top .navbar-top-links li a.dropdown-toggle {
+    height: 50px; }
+  #navbar-top .user-profile {
+    padding: 0 8px; }
+    #navbar-top .user-profile .email {
+      font-size: 90%;
+      color: gray; }
+
+ul#side-menu.nav a {
+  color: #111;
+  word-break: break-all; }
+
+.content {
+  clear: both;
+  padding-top: 60px; }
+  .content h1, .content h2, .content h3, .content h4, .content h5 {
+    padding-top: 4px;
+    margin-top: 0; }
+
+.top-buffer {
+  margin-top: 15px; }
+
+.navbar-default {
+  background-color: white; }
+
+.alert {
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-width: 2px;
+  color: #000; }
+  .alert .close:hover, .alert .close:focus {
+    color: #000; }
+
+.modal-dialog, .modal {
+  z-index: 999999; }
+
+.modal-body {
+  max-height: calc(100vh - 220px);
+  overflow-y: auto; }
+
+.pagination {
+  margin: 0; }
+  .pagination li > a {
+    color: black;
+    border: 1px solid #ecf0f1;
+    background-color: #fff; }
+    .pagination li > a:hover, .pagination li > a:focus {
+      background-color: #798d8f; }
+  .pagination .disabled > a {
+    background-color: #fff;
+    border: 1px solid #f4f9f5; }
+    .pagination .disabled > a:hover, .pagination .disabled > a:focus {
+      background-color: #fff;
+      border: 1px solid #f4f9f5; }
+  .pagination .active > a {
+    background-color: #798d8f; }
+    .pagination .active > a:hover, .pagination .active > a:focus {
+      background-color: #798d8f; }
+  .pagination.pagination-sm a {
+    padding-top: 2px;
+    padding-bottom: 2px; }
+
+table.table-first-col-bold td:first-child {
+  font-weight: bold; }
+
+table.processing-node-info {
+  table-layout: fixed; }
+  table.processing-node-info tr:first-child td:first-child {
+    width: 30%; }
+
+button i.glyphicon {
+  margin-right: 4px; }
+
+.btn.btn-secondary {
+  background-color: #dddddd; }
+
+.btn.btn-white {
+  background-color: #fff;
+  color: #111; }
+  .btn.btn-white:hover {
+    background-color: #f4f4f4; }
+
+.dropdown-menu > li > a {
+  padding-left: 10px;
+  color: #222; }
+  .dropdown-menu > li > a .fa, .dropdown-menu > li > a .glyphicon {
+    margin-right: 4px; }
+
+/* This is to make the Header and navigation more mobile friendly */
+.navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  padding: 9px 10px;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.navbar-header {
+  height: 50px; }
+
+.navbar-right {
+  clear: none !important;
+  height: 50px; }
+
+.dropdown {
+  float: right; }
+
+.navbar-brand {
+  position: absolute;
+  top: 0px; }
+
+.navbar-text {
+  position: absolute;
+  top: 0px;
+  left: 50px; }
+
+.navbar-link {
+  position: absolute;
+  top: 0px; }
